@@ -6,15 +6,15 @@
 
 let n = +prompt("Entrer un nombre", 10);
 
-/*
-for(let i = 2; i < n; i++){
+
+next:
+for(let i = 2; i <= n; i++){
       for(let j = 2; j < i; j++){
             if(i % j === 0) {
-                  break;
+                  continue next;
             }
-
       }
+      console.log(i);
 }
-*/
 
 
